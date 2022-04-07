@@ -2,6 +2,7 @@
 
 
 
+
 /*TRANSF Y ANIMACIONES*/
 .image:hover{
     transform: scale(2);
@@ -157,9 +158,11 @@ display: grid;
 
 .house{
     font-size: 2em;
-    color: rgb(139, 126, 103);
+    color: rgb(255, 251, 244);
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
+    background-color: rgba(184, 154, 118, 0.788);
+    
 }
 
 .contacto{
