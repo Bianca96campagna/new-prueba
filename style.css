@@ -1,0 +1,233 @@
+/*GIT*/
+
+
+
+/*TRANSF Y ANIMACIONES*/
+.image:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+
+.menu:hover{
+    transform: scale(2);
+    transition: all 2s ease-in-out;
+}
+
+.montes:hover{
+    transform: translateX(300PX);
+    transition: all 4s;
+}
+
+.botones {
+    color: rgb(219, 138, 39);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.botoninicio:hover {
+    background-color: rgb(233, 201, 61);
+    transform: scale(2) inherit;
+    transition: all 2s;
+   
+
+
+}
+
+/*FLEXBOX*/
+
+.menu-container {
+    background-image: url(./IMG/32.jpg);
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.title{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.city{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.logo{
+    border-radius: 50px;
+
+}
+
+
+/*principal*/
+.monte{
+    width: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0 20px;
+    margin: 10px 30px;
+}
+
+/*flexbox imagen inicio*/
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+    }
+
+.photo-grid{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*flexbox pag servicios*/
+
+.servicioA{
+    left: 50%;
+    width: 60px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0 20px;
+    margin: 10px 30px;
+    grid-area: servicioA;
+    
+    
+}
+
+.photo-servi{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+
+
+/*grid*/
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    align-items: start;
+
+}
+
+
+/*grid area*/
+
+.seccionB{
+    background-color: rgba(235, 241, 167, 0.329);
+    grid-area: seccionB;
+}
+
+/*FONDO DE SERVICIOS*/
+.servi{
+    background-color: rgb(150, 138, 122);
+
+}
+
+.headerA{
+    grid-area: headerA;
+    background-color: rgb(226, 199, 158);
+}
+
+.footerB{
+    grid-area: footerB;
+    background-color: beige;
+}
+.contenedor{
+display: grid;
+    grid-template-areas: 
+    "servicioA servicioA servicioA seccionB"
+    " headerA headerA headerA seccionB"
+    "headerA headerA headerA seccionB"
+    "footerB footerB footerB seccionB"
+    ;
+}
+
+/*FIN GRID*/
+
+/*H1 DISTINTOS HTML*/
+
+.house{
+    font-size: 2em;
+    color: rgb(139, 126, 103);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+.contacto{
+    font-size: 2em;
+    color: rgb(255, 252, 246);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+.me{
+    font-size: 2em;
+    color: rgb(117, 110, 98);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+.servicio{
+    font-size: 2em;
+    color: rgb(250, 238, 217);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+
+
+
+/*HTML UBICACION- PARRAFO*/
+.presentacionubicacion{
+    font-style: italic;
+    font-family: 'Amiri', serif;
+}
+
+/*TODOS LOS UL- INICIO ETC Y FOOTER*/
+.foot {
+    color: black;
+    font-family: 'Amiri', serif;
+    
+}
+
+/*FONDO DE SERVICIOS*/
+.servi{
+    background-color: rgb(150, 138, 122);
+
+
+}
+
+/*FONDO CONTACTO */
+
+.contac{
+    background-image: url('./Imagenes/4.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contacc{
+    color: rgb(255, 255, 255);
+}
+.conta{
+    color: rgb(255, 255, 255);
+}
+
+
+/*INDEX*/
+/*imagen principal*/
+
+
+
+
+/*TODO MI HTML */
+html{
+    font-size: 22px;
+}
